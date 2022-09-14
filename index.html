@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Etiquetas para crear Listas</h1>
+    <p>
+        <a href="#ordenadas">Lista ordenada</a> |
+        <a href="#Desordenadas">Lista desordenada</a> |
+        <a href="#Combinadas">Lista combinada</a> |
+        <a href="#Descriptivas">Lista Descriptiva</a> |
+    </p>
+    <h2 id="ordenadas">Listas ordenadas</h2>
+    <!--Listas ordenadas-->
+    <!-- ATRIBUTOS
+        type(tipo de ordenamiento)
+        start(desde donde comienoz a ordenar)
+
+    -->
+    <ol type="1" start="2">
+        <li>Cafe</li>
+        <li>Azucar</li>
+        <li>Leche</li>
+    </ol>
+    <h2 id="Desordenadas">Listas Desordenadas</h2>
+    <!--Listas desordenadas-->
+    <!--
+        type: define el tipo de viñeta: disk - square - circle
+    -->
+    <ul type="square">
+        <li>Cafe</li>
+        <li>Azucar</li>
+        <li>leche</li>
+    </ul>
+    <!--Listas Combinadas-->
+    <h2 id="Combinadas">Listas Combinadas</h2>
+    <ul>
+        <li>Asia</li>
+        <li>Oceania</li>
+        <li>Africa</li>
+        <li>Europa
+            <ol type="1">
+                <li>España</li>
+                <li>Portugal</li>
+                <li>Italia</li>
+            </ol>
+        </li>
+        <li>America</li>
+        <ol>
+            <li>Argentina
+                <ol type="a">
+                    <li>Rio Negro</li>
+                    <li>Neuquen</li>
+                    <li>Chubut</li>
+
+                </ol>
+            </li>
+            
+            <li>Bolivia</li>
+            <li>Brasil</li>
+        </ol>
+    </ul>
+    <!--Listas Descriptivas-->
+    <h2 id="Descriptivas">Listas Descriptivas</h2>
+
+    <dl>
+        <dt><u>RIVER PLATE</u></dt>
+        <dd>Es el mejor equipo de todos los tiempos. Como olvidar al Enzo Francescoli</dd>
+        <dt><u>Cipolletti</u></dt>
+        <dd>Es el peor equipo de Cipolletti</dd>
+    </dl>
+
+    
+</body>
+</html>
